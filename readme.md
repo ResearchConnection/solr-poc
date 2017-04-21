@@ -7,5 +7,5 @@ vagrant ssh
 
 2. Run `/vagrant/booscript.sh` script to install solr and it's dependencies
 
-3. go to solr Admin [http://localhost:8989/solr/#/oppportunity]
+3. Go to solr admin <http://localhost:8989/solr/#/oppportunity> 
 
