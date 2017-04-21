@@ -12,9 +12,9 @@ Install_services()
 	
 	echo " Installing Oracle Java 8 "
 	
-	#sudo apt-add-repository ppa:webupd8team/java
-	#sudo apt-get update
-	#sudo apt-get install oracle-java8-installer -y
+	sudo apt-add-repository ppa:webupd8team/java
+	sudo apt-get update
+	sudo apt-get install oracle-java8-installer -y
 
 	echo " Oracle Java 8 installed successfully "
 	
