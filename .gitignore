@@ -1,0 +1,8 @@
+
+# Vagrant
+.vagrant/
+
+# netbeans
+nbproject/
+
+ubuntu-xenial-16.04-cloudimg-console.log

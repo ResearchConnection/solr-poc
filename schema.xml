@@ -1,0 +1,39 @@
+<?xml version="1.0" encoding="UTF-8" ?>
+
+<schema name="opportunity" version="1.5">
+
+<field name="_ts" type="long" indexed="true" stored="true" />
+<field name="ns" type="string" indexed="true" stored="true"/>
+<field name="_id" type="string" indexed="true" stored="true" />
+
+<field name="active" type="boolean" indexed="false" stored="true"/>
+<field name="close_date" type="string" indexed="false" stored="true"/>
+<field name="creator_id" type="string" indexed="false" stored="true"/>
+<field name="description" type="string" indexed="true" stored="true"/>
+<field name="draft" type="boolean" indexed="false" stored="true"/>
+<field name="explanation" type="string" indexed="true" stored="true"/>
+<field name="flagged" type="boolean" indexed="false" stored="true"/>
+<field name="flagger_id" type="int" indexed="false" stored="true"/>
+<field name="funding_available" type="string" indexed="false" stored="true"/>
+<field name="id" type="string" multiValued="false" indexed="true" required="true" stored="true"/>
+<field name="live" type="boolean" indexed="false" stored="true"/>
+<field name="location" type="string" indexed="true" stored="true"/>
+<field name="opportunity_id" type="string" indexed="false" stored="true"/>
+<field name="post_date" type="string" indexed="false" stored="true"/>
+<field name="program" type="string" indexed="true" stored="true"/>
+<field name="require_cover_letter" type="string" indexed="false" stored="true"/>
+<field name="require_resume" type="string" indexed="false" stored="true"/>
+<field name="researcher_id" type="string" indexed="false" stored="true"/>
+<field name="reviewed" type="boolean" indexed="false" stored="true"/>
+<field name="school" type="string" indexed="true" stored="true"/>
+<field name="start_date" type="string" indexed="false" stored="true"/>
+<field name="title" type="string" indexed="true" stored="true"/>
+
+
+<uniqueKey>_id</uniqueKey>
+
+<fieldType name="string" class="solr.StrField" sortMissingLast="true" />
+
+<fieldType name="boolean" class="solr.BoolField" sortMissingLast="true"/>
+
+</schema>
