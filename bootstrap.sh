@@ -75,6 +75,7 @@ Install_services()
 	echo " Mongo configured successfully  "
 	
 	Start_mongodb
+	sleep 10
 	Mongodb_init_replicaset
 	
 	echo " Copying opportunity data into mongodb  "
